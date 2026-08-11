@@ -1,4 +1,4 @@
-"""Run a small, non-proprietary SPOD demonstration on synthetic travelling waves."""
+"""Run a small SPOD demonstration on synthetic travelling waves."""
 
 import argparse
 from pathlib import Path

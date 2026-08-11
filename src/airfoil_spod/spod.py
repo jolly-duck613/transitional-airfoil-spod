@@ -83,7 +83,7 @@ def compute_spod(
     Notes
     -----
     Eigenvalues use a consistent density-like scaling for this scaffold. Establish
-    and test the exact convention required for comparison with a paper or library.
+    and test the exact convention required for comparison with another library.
     """
     array = validate_snapshot_matrix(states)
     if dt <= 0:

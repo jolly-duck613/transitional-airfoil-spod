@@ -36,9 +36,3 @@ snapshot_*.npy
 *.h5
 *.hdf5
 
-# Paper drafts may contain unpublished material
-paper/*.pdf
-paper/*.docx
-paper/*.tex
-paper/*.bib
-

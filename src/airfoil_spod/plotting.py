@@ -1,4 +1,4 @@
-"""Small plotting helpers; keep paper-specific styling in separate scripts."""
+"""Plotting helpers for PSD and SPOD spectra."""
 
 from pathlib import Path
 
