@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.mplconfig/
+
+# Environments and secrets
+.venv/
+venv/
+.env
+.env.*
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
+
+# Generated results
+results/
+output/
+*.log
+
+# CFD and ParaView data: keep proprietary/large files out of Git
+snapshot_*.npz
+snapshot_*.npy
+*.vtu
+*.pvtu
+*.vtk
+*.vtp
+*.pvd
+*.cgns
+*.foam
+*.h5
+*.hdf5
+
+# Paper drafts may contain unpublished material
+paper/*.pdf
+paper/*.docx
+paper/*.tex
+paper/*.bib
